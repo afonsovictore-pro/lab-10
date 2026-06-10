@@ -6,13 +6,13 @@ derrotas = 0
 pontos = 0
 
 for i in range(jogos):
-    gols_galo = int(input("Gols do Galo: "))
-    gols_oponente = int(input("Gols do adversário: "))
+    gols_brasil = int(input("Gols do brasil: "))
+    gols_argentina = int(input("Gols da argentina: "))
 
-    if gols_galo > gols_oponente:
+    if gols_brasil > gols_argentina:
         vitorias += 1
         pontos += 3
-    elif gols_galo == gols_oponente:
+    elif gols_brasil == gols_argentina:
         empates += 1
         pontos += 1
     else:
